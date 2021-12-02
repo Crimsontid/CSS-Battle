@@ -7,12 +7,11 @@
 ![result](./images/1-simply-square.png)
 
 ```html
+<!-- my solution -->
 <div></div>
 <style>
-  * {
-    margin: 0;
-  }
   body {
+    margin: 0;
     background: #5d3a3a;
   }
   div {
@@ -21,21 +20,22 @@
     background: #b5e0ba;
   }
 </style>
+
+<!-- <div><style>body{margin:0;background:#5d3a3a}div{width:200px;height:200px;background:#b5e0ba -->
 ```
 
 ```html
-<div></div>
 <style>
-  * {
-    margin: 0;
-  }
-  body {
-    background: #5d3a3a;
-  }
-  div {
-    width: 200px;
-    height: 200px;
+  html {
+    box-shadow: -211q -106q #5d3a3a inset;
     background: #b5e0ba;
   }
 </style>
+
+<!-- <style>html{box-shadow:-211q -106q#5d3a3a inset;background:#b5e0ba -->
+```
+
+```html
+<a style="box-shadow:" 0 0 0 2in #b5e0ba, 0 0 0 9in #5d3a3a></a>
+<!-- <a style=box-shadow:0+0+0+2in#b5e0ba,0+0+0+9in#5d3a3a> -->
 ```
