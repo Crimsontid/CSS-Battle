@@ -1,5 +1,9 @@
 # CSS Battle
 
+[Getting Started with CSS Battle](https://www.sarthakbatra.com/blog/getting-started-with-css-battle/)
+
+[Olzhas Askar](https://dev.to/pheeria/css-battle-1-simply-square-c19)
+
 ## Battle #1 - Pilot Battle
 
 ![preview](./solutions/1-pilot-battle/images/preview.png)
