@@ -13,13 +13,14 @@
 </div>
 <style>
   body {
-    background: #6592CF;
+    background: #6592cf;
   }
   .wrapper {
     width: 300px;
     height: 150px;
-    background: #243D83;
+    background: #243d83;
     margin: 75px auto;
+    /* margin처리 */
     position: relative;
   }
   .circle {
@@ -33,7 +34,8 @@
     height: 250px;
     background: transparent;
     box-sizing: border-box;
-    border: 50px solid #6592CF;
+    border: 50px solid #6592cf;
+    /* "border-width: 50px" */
   }
   .circle-center {
     position: absolute;
@@ -41,7 +43,59 @@
     height: 50px;
     left: 125px;
     top: 50px;
-    background: #EEB850;
+    background: #eeb850;
+  }
+</style>
+```
+
+```html
+<div id="a">
+  <div id="b">
+    <div id="c">
+      <div id="d"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    background: #6592cf;
+  }
+  #a {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    width: 300px;
+    height: 150px;
+    background: #243d83;
+  }
+  #b {
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    width: 250px;
+    height: 250px;
+    background: #6592cf;
+    border-radius: 50%;
+  }
+  #c {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    background: #243d83;
+    border-radius: 50%;
+  }
+  #d {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background: #eeb850;
+    border-radius: 50%;
   }
 </style>
 ```
