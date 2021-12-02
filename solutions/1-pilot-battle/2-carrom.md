@@ -89,3 +89,24 @@
 ></body>
 <!-- <body bgcolor=#62374e style=margin:0+50;border:dashed+50px#fdc57b;clip-path:inset(50px+0> -->
 ```
+
+```html
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body {
+    background-color: #62374e;
+    margin: 50;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 100px 200px;
+  }
+  div {
+    width: 50;
+    height: 50;
+    background-color: #fdc57b;
+  }
+</style>
+```
