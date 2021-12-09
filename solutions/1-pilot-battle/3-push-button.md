@@ -51,57 +51,6 @@
 ```html
 <!-- my solution -->
 <div id="a">
-  <div id="b">
-    <div id="c">
-      <div id="d"></div>
-    </div>
-  </div>
-</div>
-
-<style>
-  body {
-    margin: 0;
-    background: #6592cf;
-  }
-  #a {
-    position: absolute;
-    top: 75px;
-    left: 50px;
-    width: 300px;
-    height: 150px;
-    background: #243d83;
-  }
-  #b {
-    position: absolute;
-    top: -50px;
-    left: 25px;
-    width: 250px;
-    height: 250px;
-    background: #6592cf;
-    border-radius: 50%;
-  }
-  #c {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 150px;
-    height: 150px;
-    background: #243d83;
-    border-radius: 50%;
-  }
-  #d {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 50px;
-    height: 50px;
-    background: #eeb850;
-    border-radius: 50%;
-  }
-</style>
-
-<!-- my solution -->
-<div id="a">
     <div id="b">
       <div id="c">
         <div id="d"></div>
